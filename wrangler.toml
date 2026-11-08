@@ -1,0 +1,12 @@
+name = "TriRelay"
+main = "src/index.ts"
+compatibility_date = "2026-09-25"
+
+[vars]
+MAX_FILE_SIZE_MB = "25"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "telegram-discord-inbox"
+database_id = "7498e237-ba9f-4a23-a791-92c51ffddf56"
+migrations_dir = "migrations"
